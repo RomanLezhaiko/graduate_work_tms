@@ -1,0 +1,52 @@
+#navbar-button {
+    background-color: #ffc201;
+}
+
+#card-product {
+    margin-bottom: 20px;
+}
+
+#card-price {
+    margin-bottom: 20px;
+}
+
+#card-link {
+    text-decoration: none;
+    color: #212529;
+}
+
+#card-about-us {
+    margin-bottom: 20px;
+}
+
+#card-icon {
+    font-size: 70px;
+    text-align: center;
+}
+
+#card-button-link {
+    text-decoration: none; 
+    color: #000000;
+}
+
+#card-button-link:hover {
+    text-decoration: none; 
+    background-color: #ffc201;
+    transform: scale(1.02);
+    border-radius: 10px;
+}
+
+#footer-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#footer-link {
+    text-decoration: none; 
+    color: #ffffff;
+}
+
+#footer-link:hover {
+    text-decoration: none; 
+    color: #ffc201;
+}
