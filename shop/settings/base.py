@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'mptt',
     'cart',
     'orders',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -168,3 +169,6 @@ MESSAGE_TAGS = {
 
 
 CART_SESSION_ID = 'cart'
+
+
+AUTH_USER_MODEL = "users.CustomUser"

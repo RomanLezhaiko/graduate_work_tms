@@ -1,9 +1,9 @@
 from PIL import Image
 
 from django.db import models
-from django.contrib.auth.models import User
 
 from categories.models import Category
+from users.models import CustomUser
 
 
 class Product(models.Model):
@@ -50,7 +50,7 @@ class ProductReview(models.Model):
         (STATUS_PUBLISHED, 'Published'),
     ]
 
-    author = models.ForeignKey(User, on_delete=models.CASCADE)
+    author = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     product_review = models.TextField('Отзыв', blank=False)
     admin_answer = models.TextField(blank=True)

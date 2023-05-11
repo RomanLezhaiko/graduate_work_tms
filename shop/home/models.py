@@ -1,5 +1,6 @@
 from django.db import models
-from django.contrib.auth.models import User
+
+from users.models import CustomUser
 
 
 class CustomerReview(models.Model):
@@ -13,7 +14,7 @@ class CustomerReview(models.Model):
         (STATUS_DELETED, 'Deleted'),
     ]
 
-    author = models.ForeignKey(User, on_delete=models.CASCADE)
+    author = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
     customer_review = models.TextField('Отзыв', blank=False)
     admin_answer = models.TextField(blank=True)
     creation_date = models.DateField(auto_now_add=True)
