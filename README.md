@@ -6,7 +6,8 @@ Django shop project
 
 In your command line:
 ```
-cd graduate_work
+git clone https://github.com/RomanLezhaiko/graduate_work_tms.git
+cd graduate_work_tms
 ```
 
 Create virtual enviroment:
@@ -33,7 +34,9 @@ Install Redis if it is not present on your operating system, and after write in 
 redis-server --port 7777
 ```
 
-In new terminal write next line
+In new terminal activate venv and write next lines
 ```
+cd shop
+
 python3 -m celery -A shop worker -l INFO
 ```
