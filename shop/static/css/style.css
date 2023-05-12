@@ -2,6 +2,12 @@
     background-color: #ffc201;
 }
 
+#catalog_link {
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
 #card-product {
     margin-bottom: 20px;
 }

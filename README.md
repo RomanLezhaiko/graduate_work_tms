@@ -40,3 +40,10 @@ cd shop
 
 python3 -m celery -A shop worker -l INFO
 ```
+
+
+
+
+
+
+P.S. Remember collect static files

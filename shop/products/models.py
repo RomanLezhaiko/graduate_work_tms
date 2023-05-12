@@ -8,7 +8,7 @@ from users.models import CustomUser
 
 class Product(models.Model):
     name = models.CharField(max_length=128, unique=True)
-    category = models.ForeignKey(Category, on_delete=models.CASCADE,  related_name='products')
+    category = models.ForeignKey(Category, on_delete=models.CASCADE, blank=False, null=False, related_name='products')
     keywords = models.CharField(max_length=512)
     description = models.TextField()
     attributes = models.JSONField()

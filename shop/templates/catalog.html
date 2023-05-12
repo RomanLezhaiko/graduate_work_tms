@@ -18,7 +18,7 @@
                                     <a href="{% url 'category_details_slug' node.slug %}"><span>{{ node.name }}</span></a>
                                 </button>
                                 {% else %}
-                                    <a href="{% url 'category_details_slug' node.slug %}"><span>{{ node.name }}</span></a> 
+                                    <a id="catalog_link" href="{% url 'category_details_slug' node.slug %}"><span>{{ node.name }}</span></a> 
                                 {% endif %}
                             </h2>
                             <div id="panelsStayOpen-collapse{{node.id}}" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading{{node.id}}">

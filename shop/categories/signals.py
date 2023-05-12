@@ -9,5 +9,7 @@ from .models import Category
 
 @receiver(pre_save, sender=Category)
 def gen_slug_field(sender, instance, **kwargs):
-    instance.slug = slugify(unidecode(instance.name))
-    print('Generated slug =', instance.slug)
+    if instance.parent is None:
+        instance.slug = slugify(unidecode(instance.name))
+    else:
+        instance.slug = slugify(unidecode(instance.parent.name + '_' + instance.name))

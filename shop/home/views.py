@@ -94,9 +94,8 @@ def get_contacts_page(request):
     return render(request, 'contacts.html', ctx)
 
 
-@cache_page(60 * 5)
 def get_customer_reviews_page(request):
-    reviews_list = CustomerReview.objects.filter(status=CustomerReview.STATUS_PUBLISHED)
+    reviews_list = CustomerReview.objects.filter(status=CustomerReview.STATUS_PUBLISHED).order_by('-created_at')
     page = request.GET.get('page', 1)
     paginator = Paginator(reviews_list, 5)
 
@@ -112,12 +111,9 @@ def get_customer_reviews_page(request):
            'reviews': reviews,
            }
     
-    messages.success(request, "Ваш отзыв отправлен." )
-    
     return render(request, 'customer_reviews.html', ctx)
 
 
-@cache_page(60 * 60 * 24 * 10)
 def create_review(request):
     if request.method == 'POST':
        form = CustomerReviewCreationForm(request.POST)
@@ -133,7 +129,9 @@ def create_review(request):
        form = CustomerReviewCreationForm()
     
     ctx = {
-          'form': form,
+            'title': 'Оставить отзыв',
+            'shop_name': SHOP_NAME,
+            'form': form,
         }
 
     return render(request, 'review_create.html', ctx)

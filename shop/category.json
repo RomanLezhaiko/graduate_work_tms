@@ -7,7 +7,7 @@
         "parent": null,
         "slug": "bytovaia-tekhnika",
         "lft": 1,
-        "rght": 10,
+        "rght": 16,
         "tree_id": 1,
         "level": 0
     }
@@ -18,9 +18,9 @@
     "fields": {
         "name": "Крупная техника для кухни",
         "parent": 1,
-        "slug": "krupnaia-tekhnika-dlia-kukhni",
+        "slug": "bytovaia-tekhnika_krupnaia-tekhnika-dlia-kukhni",
         "lft": 2,
-        "rght": 9,
+        "rght": 15,
         "tree_id": 1,
         "level": 1
     }
@@ -31,9 +31,9 @@
     "fields": {
         "name": "Холодильники",
         "parent": 2,
-        "slug": "kholodilniki",
-        "lft": 3,
-        "rght": 8,
+        "slug": "krupnaia-tekhnika-dlia-kukhni_kholodilniki",
+        "lft": 7,
+        "rght": 14,
         "tree_id": 1,
         "level": 2
     }
@@ -44,9 +44,9 @@
     "fields": {
         "name": "LG",
         "parent": 3,
-        "slug": "lg",
-        "lft": 4,
-        "rght": 5,
+        "slug": "kholodilniki_lg",
+        "lft": 10,
+        "rght": 11,
         "tree_id": 1,
         "level": 3
     }
@@ -57,9 +57,48 @@
     "fields": {
         "name": "Samsung",
         "parent": 3,
-        "slug": "samsung",
-        "lft": 6,
-        "rght": 7,
+        "slug": "kholodilniki_samsung",
+        "lft": 12,
+        "rght": 13,
+        "tree_id": 1,
+        "level": 3
+    }
+},
+{
+    "model": "categories.category",
+    "pk": 9,
+    "fields": {
+        "name": "Beko",
+        "parent": 3,
+        "slug": "kholodilniki_beko",
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 1,
+        "level": 3
+    }
+},
+{
+    "model": "categories.category",
+    "pk": 10,
+    "fields": {
+        "name": "Морозильники",
+        "parent": 2,
+        "slug": "krupnaia-tekhnika-dlia-kukhni_morozilniki",
+        "lft": 3,
+        "rght": 6,
+        "tree_id": 1,
+        "level": 2
+    }
+},
+{
+    "model": "categories.category",
+    "pk": 11,
+    "fields": {
+        "name": "Beko",
+        "parent": 10,
+        "slug": "morozilniki_beko",
+        "lft": 4,
+        "rght": 5,
         "tree_id": 1,
         "level": 3
     }
