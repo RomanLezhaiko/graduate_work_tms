@@ -3,21 +3,27 @@
 {% block content %}
     <div class="h-100 d-flex align-items-center justify-content-center">
         
-        <form>
+        <form method="post">
             <h3 class="mt-4">Вход в систему</h3>
-            <!-- Email input -->
-            <div class="form-outline mb-3">
-            <input type="email" id="form2Example1" class="form-control" placeholder="Email"/>
-            </div>
-        
-            <!-- Password input -->
-            <div class="form-outline mb-3">
-            <input type="password" id="form2Example2" class="form-control" placeholder="Password" />
-            </div>
+            {% csrf_token %}
+            {{ form.non_field_errors }}
+
+            {% for hidden_field in form.hidden_fields %}
+                {{ hidden_field.errors }}
+                {{ hidden_field }}
+            {% endfor %}
+
+            {% for field in form.visible_fields %}
+                <div class="mb-3">         
+                    {{ field }}
+                    <span style="color: red">{{ field.errors }}</span>
+                    {{ field.help_text }}
+                </div>
+            {% endfor %}
         
             <!-- Submit button -->
             <div class="text-center">
-                <button type="button" class="btn btn-warning btn-block mb-4">Войти</button>
+                <button type="submit" class="btn btn-warning btn-block mb-4">Войти</button>
             </div>
             
         

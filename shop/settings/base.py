@@ -178,3 +178,6 @@ CART_SESSION_ID = 'cart'
 
 
 AUTH_USER_MODEL = "users.CustomUser"
+
+
+LOGIN_REDIRECT_URL = '/home/'
