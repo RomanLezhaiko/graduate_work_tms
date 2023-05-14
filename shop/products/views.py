@@ -27,21 +27,21 @@ def get_product_by_slug(request, product_slug: str):
     reviews = ProductReview.objects.filter(status=ProductReview.STATUS_PUBLISHED)
 
     if request.method == 'POST':
-       form = ProductReviewCreationForm(request.POST)
-        
-       if form.is_valid():
+        form = ProductReviewCreationForm(request.POST)
+        url = reverse('product_details_slug', args=(product.slug,))
+           
+        if form.is_valid():
             review = form.save(commit=False)
             review.author = request.user
             review.product = product
             review.save()
-            url = reverse('product_details_slug', args=(product.slug,))
             messages.success(request, "Ваш отзыв отправлен." )
 
             return redirect(url)
+        else:
+            messages.error(request, 'Нельзя отправить пустой отзыв!')
     else:
         form = ProductReviewCreationForm()
-        category_all = Category.objects.all()
-        product = get_object_or_404(Product, slug=product_slug)
 
     ctx = {
         'title': product.name,

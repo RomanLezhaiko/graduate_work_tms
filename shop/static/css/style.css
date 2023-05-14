@@ -2,6 +2,15 @@
     background-color: #ffc201;
 }
 
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.carousel-inner > .item > img { 
+    align-items: center;
+}
+
 #catalog_link {
     font-size: 18px;
     margin-left: 10px;

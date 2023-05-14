@@ -1,5 +1,6 @@
 from django import forms
 from django.core.exceptions import ValidationError
+from django.contrib import messages
 
 from .models import ProductReview
 
@@ -16,9 +17,8 @@ class ProductReviewCreationForm(forms.ModelForm):
             visible.field.widget.attrs['class'] = 'form-control'
     
 
-    def clean_customer_review(self):
+    def clean_product_review(self):
         product_review = self.cleaned_data.get('product_review')
-
         if len(product_review) < 30:
             raise ValidationError('Нельзя отправить пустой отзыв.')
         

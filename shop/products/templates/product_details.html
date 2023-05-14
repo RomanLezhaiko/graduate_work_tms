@@ -4,58 +4,56 @@
 
     {% include "catalog.html" %}
 
-    <div class="container mt-4 mb-3">
-        <h3>Холодильник с морозильником LG DoorCooling GW-B509SBNM</h3>
-        <div class="row d-flex justify-content-center">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="images p-3">
-                                <div class="text-center p-4">
-                                    <img id="main-image" src="" width="80" height="240"> 
-                                </div>
-                                <div class="thumbnail text-center"> 
-                                    <img onclick="change_image(this)" src="" width="40" height="130"> 
-                                    <img onclick="change_image(this)" src="" width="40" height="130">
-                                    <img onclick="change_image(this)" src="" width="40" height="130"> 
-                                    <img onclick="change_image(this)" src="" width="40" height="130">
-                                    <img onclick="change_image(this)" src="" width="40" height="130"> 
-                                    <img onclick="change_image(this)" src="" width="40" height="130">
-                                    <img onclick="change_image(this)" src="" width="40" height="130"> 
-                                    <img onclick="change_image(this)" src="" width="40" height="130"> 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="product p-4">
-                                <div class="mt-4 mb-3"> <span class="text-uppercase text-muted brand">Orianz</span>
-                                    <h5 class="text-uppercase">Men's slim fit t-shirt</h5>
-                                    <div class="price d-flex flex-row align-items-center"> <span class="act-price">$20</span>
-                                        <div class="ml-2"> <small class="dis-price">$59</small> <span>40% OFF</span> </div>
-                                    </div>
-                                </div>
-                                <p class="about">
-                                    Shop from a wide range of t-shirt from orianz. Pefect for your everyday use, 
-                                    you could pair it with a stylish pair of jeans or trousers complete the look.
-                                </p>
-                                <div class="cart mt-4 align-items-center">
-                                    <form action="{% url 'cart_add' product.id %}" method="post">
-                                        {% csrf_token %}
-                                        <input type="hidden" value="1" name="quantity" id="id_quantity">
-                                        <input type="submit" class="btn btn-warning" value="Добавить в корзину">
-                                    </form>
-                                    <!-- <button class="btn btn-warning text-uppercase mr-2 px-4">Add to cart</button> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
+
+    <div class="container">
+        <div class="row m-2">
+            <h3 class="text-center">{{ product.name }}</h3> 
+
+            <p>
+                {{ product.description }}
+            </p>
+        
+            <div class="price text-center"> 
+                <h5><span class="act-price">{{ product.price }} руб.</span></h5>
             </div>
-        </div>    
+            <div class="cart mt-2 text-center">
+                <form action="{% url 'cart_add' product.id %}" method="post">
+                    {% csrf_token %}
+                    <input type="hidden" value="1" name="quantity" id="id_quantity">
+                    <input type="submit" class="btn btn-warning" value="Добавить в корзину">
+                </form>
+            </div>
+
+            
+
+                       
+        </div>
     </div>
 
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide mt-3" data-bs-ride="carousel" style="height: 450px;">
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <img style="margin-top: 20px;" src="{{ product.main_image.url }}" width="{{ product.image_width }}" height="{{ product.image_height }}"  alt="main-image">
+                </div>
+                <div class="carousel-item">
+                    <img style="margin-top: 20px;" src="{{ product.main_image.url }}" width="{{ product.image_width }}" height="{{ product.image_height }}"  alt="main-image">
+                </div>
+                <div class="carousel-item">
+                    <img style="margin-top: 20px;" src="{{ product.main_image.url }}" width="{{ product.image_width }}" height="{{ product.image_height }}"  alt="main-image">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>        
+    </div>
+            
 
     <div class="container">
         <div class="row">
@@ -153,9 +151,6 @@
                         <div class="card my-4">
                             <div class="card-body">
                                 <h5 class="card-title">
-                                    <!--<img src="avatars/3-avatar.png"
-                                            class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="90"
-                                            height="90">-->
                                     {{ user.username }}
                                 </h5>
                                 
@@ -180,14 +175,5 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <script>
-        function change_image(image){
-            var container = document.getElementById("main-image");
-            container.src = image.src;
-        }
-        document.addEventListener("DOMContentLoaded", function(event) {});
-    </script>
-
+    </div>    
 {% endblock %}
