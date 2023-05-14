@@ -37,6 +37,6 @@ class AdminProduct(admin.ModelAdmin):
 
 @admin.register(ProductReview)
 class AdminProductReview(admin.ModelAdmin):
-    list_display = ('id', 'author', 'product', 'product_review', 'creation_date', 'status',)
+    list_display = ('id', 'author', 'product', 'product_review', 'created_at', 'status',)
     list_filter = ('status',)
-    ordering = ('-creation_date',)
+    ordering = ('-created_at',)

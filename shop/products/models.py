@@ -41,12 +41,12 @@ class ProductReview(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     product_review = models.TextField('Отзыв', blank=False)
     admin_answer = models.TextField(blank=True)
-    creation_date = models.DateField(auto_now_add=True)
+    created_at = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS_CHOICES, default=STATUS_DRAFT)
 
 
     class Meta:
-        ordering = ["-creation_date"]
+        ordering = ["-created_at"]
 
 
     def __str__(self) -> str:
