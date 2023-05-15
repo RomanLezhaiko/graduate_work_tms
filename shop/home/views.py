@@ -17,6 +17,7 @@ def get_home_page(request):
     cart_product_form = CartAddProductForm()
 
     ctx = {'title': 'Главная',
+           'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
            'shop_name': SHOP_NAME,
            'name_header': 'name header',
            'name_footer': 'name footer',
@@ -32,6 +33,7 @@ def get_home_page(request):
 def get_about_us_page(request):
     count = Product.objects.count()
     ctx = {'title': 'О нас',
+           'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
            'count': count,
            'shop_name': SHOP_NAME,
            }
@@ -41,6 +43,7 @@ def get_about_us_page(request):
 @cache_page(60 * 60 * 24 * 10)
 def get_transport_services_page(request):
     ctx = {'title': 'Транспортные услуги',
+           'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
            'shop_name': SHOP_NAME,
            }
     return render(request, 'transport_services.html', ctx)
@@ -49,6 +52,7 @@ def get_transport_services_page(request):
 @cache_page(60 * 60 * 24 * 10)
 def get_mission_and_values_page(request):
     ctx = {'title': 'Миссия и ценности',
+           'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
            'shop_name': SHOP_NAME,
            }
     return render(request, 'mission_and_values.html', ctx)
@@ -57,6 +61,7 @@ def get_mission_and_values_page(request):
 @cache_page(60 * 60 * 24 * 10)
 def get_delivery_page(request):
     ctx = {'title': 'Доставка',
+           'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
            'shop_name': SHOP_NAME,
            }
     return render(request, 'delivery.html', ctx)
@@ -65,6 +70,7 @@ def get_delivery_page(request):
 @cache_page(60 * 60 * 24 * 10)
 def get_equipment_repair_page(request):
     ctx = {'title': 'Ремонт техники',
+           'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
            'shop_name': SHOP_NAME,
            }
     return render(request, 'equipment_repair.html', ctx)
@@ -73,6 +79,7 @@ def get_equipment_repair_page(request):
 @cache_page(60 * 60 * 24 * 10)
 def get_replacement_and_return_products(request):
     ctx = {'title': 'Замена и возврат товара',
+           'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
            'shop_name': SHOP_NAME,
            }
     return render(request, 'replacement_and_return_products.html', ctx)
@@ -81,6 +88,7 @@ def get_replacement_and_return_products(request):
 @cache_page(60 * 60 * 24 * 10)
 def get_payment_page(request):
     ctx = {'title': 'Оплата',
+           'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
            'shop_name': SHOP_NAME,
            }
     return render(request, 'payment.html', ctx)
@@ -89,6 +97,7 @@ def get_payment_page(request):
 @cache_page(60 * 60 * 24 * 10)
 def get_contacts_page(request):
     ctx = {'title': 'Контакты',
+           'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
            'shop_name': SHOP_NAME,
            }
     return render(request, 'contacts.html', ctx)
@@ -107,6 +116,7 @@ def get_customer_reviews_page(request):
        reviews = paginator.page(paginator.num_pages)
 
     ctx = {'title': 'Отзывы',
+           'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
            'shop_name': SHOP_NAME,
            'reviews': reviews,
            }
@@ -130,6 +140,7 @@ def create_review(request):
     
     ctx = {
             'title': 'Оставить отзыв',
+            'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
             'shop_name': SHOP_NAME,
             'form': form,
         }

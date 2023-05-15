@@ -8,6 +8,7 @@ def get_category_page(request):
     category_all = Category.objects.all()
     ctx = {
         'title': 'Категории',
+        'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
         'shop_name': SHOP_NAME,
         'categories': list(category_all),
     }
@@ -30,6 +31,7 @@ def get_category_by_slug(request, category_slug: str):
 
     ctx = {
         'title': category_detail.name,
+        'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
         'shop_name': SHOP_NAME,
         'categories': list(category_all),
         'products': products,

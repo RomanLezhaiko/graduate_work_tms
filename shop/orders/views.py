@@ -22,8 +22,13 @@ def create_order(request):
             print(order.items.all())
             cart.clear()
             
-            return render(request, 'created_order.html', {'order': order, 'shop_name': SHOP_NAME,})
+            return render(request, 'created_order.html', {'keywords': 'Недорогие товары, быстрая доставка, Минск, sale', 
+                                                          'order': order, 
+                                                          'shop_name': SHOP_NAME,})
     else:
         form = OrderCreateForm()
     
-    return render(request, 'create_order.html', {'cart': cart, 'form': form, 'shop_name': SHOP_NAME,})
+    return render(request, 'create_order.html', {'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
+                                                 'cart': cart, 
+                                                 'form': form, 
+                                                 'shop_name': SHOP_NAME,})

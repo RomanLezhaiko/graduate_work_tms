@@ -33,7 +33,7 @@ def cart_add(request, product_id):
         cd = form.cleaned_data
         cart.add(product=product, quantity=cd['quantity'], update_quantity=cd['update'])
 
-    messages.success(request, "Товар добавлен в корзину." )
+    messages.success(request, "Товар добавлен в корзину.")
 
     return redirect(request.META.get('HTTP_REFERER'))
 
@@ -47,4 +47,7 @@ def cart_remove(request, product_id):
 
 def cart_detail(request):
     cart = Cart(request)
-    return render(request, 'cart_detail.html', {'title': 'Корзина','cart': cart, 'shop_name': SHOP_NAME,})
+    return render(request, 'cart_detail.html', {'title': 'Корзина', 
+                                                'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
+                                                'cart': cart, 
+                                                'shop_name': SHOP_NAME,})

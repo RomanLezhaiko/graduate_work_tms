@@ -13,6 +13,7 @@ def list_product(request):
     query = request.GET.get('search', '')
     products = Product.objects.filter(name__icontains=query)
     ctx = {'title': f'Результат поиска {query}',
+           'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
            'shop_name': SHOP_NAME,
            'categories': list(category),
            'products': list(products)
@@ -45,6 +46,7 @@ def get_product_by_slug(request, product_slug: str):
 
     ctx = {
         'title': product.name,
+        'keywords': product.keywords,
         'shop_name': SHOP_NAME,
         'categories': list(category_all),
         'product': product,
