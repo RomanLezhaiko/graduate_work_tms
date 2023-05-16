@@ -76,7 +76,7 @@
                         <td><img src="{{ product.main_image.url }}"></td>
                         <td>{{ product.name }}</td>
                         <td>
-                            <input style="text-align: center;" type="hidden" min="1" value="{{ product.id }}" name="product_id" id="id_product">
+                            <input style="text-align: center;" type="hidden" min="1" max="100" value="{{ product.id }}" name="product_id" id="id_product">
                             <input style="text-align: center;" type="number" min="1" value="{{ item.quantity }}" name="quantity" id="id_quantity">
                         </td>
                         <td>{{ item.price }} р.</td>

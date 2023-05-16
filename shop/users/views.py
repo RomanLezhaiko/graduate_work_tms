@@ -68,13 +68,9 @@ def logout_user(request):
 def user_login(request):
     if request.method == 'POST':
         form = LoginForm(request.POST)
-        print(form.is_valid())
         if form.is_valid():
             cd = form.cleaned_data
-            print(cd)
-            # user = authenticate(username=cd['email'], password=cd['password'])
             user = authenticate(email=cd['email'], password=cd['password'])
-            print(user)
             if user is not None:
                 if user.is_active:
                     login(request, user)
@@ -85,7 +81,6 @@ def user_login(request):
                     return render(request, 'complete_registration.html', {'title': 'Подтвердите почту', 'shop_name': SHOP_NAME,})
             else:
                 messages.success(request, 'Неверный логин или пароль!')
-            #     return HttpResponse('Invalid login')
     else:
         form = LoginForm()
     

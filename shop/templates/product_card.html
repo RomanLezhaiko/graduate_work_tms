@@ -14,7 +14,7 @@
                             {% if user.is_authenticated %}  
                             <form action="{% url 'cart_add' product.id %}" method="post">
                                 {% csrf_token %}
-                                <input type="hidden" value="1" name="quantity" id="id_quantity">
+                                <input type="hidden" value="1" min="1" max="100" name="quantity" id="id_quantity">
                                 <input type="submit" class="btn btn-warning" value="Добавить в корзину">
                             </form>
                             {% else %}

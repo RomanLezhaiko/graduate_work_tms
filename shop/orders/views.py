@@ -16,12 +16,9 @@ def create_order(request):
                 order = form.save(commit=False)
                 order.user = request.user
                 order.save()
-                # print(order.items)
                 for item in cart:
                     OrderItem.objects.create(order=order, product=item['product'], price=item['price'], quantity=item['quantity'])
                 
-            
-            # print(order.items.all())
             cart.clear()
             
             return render(request, 'created_order.html', {'keywords': 'Недорогие товары, быстрая доставка, Минск, sale', 
