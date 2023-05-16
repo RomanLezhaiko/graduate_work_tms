@@ -8,13 +8,14 @@ class UsersManagersTests(TestCase):
         User = get_user_model()
         user = User.objects.create_user(email="normal@user.com", password="foo")
         self.assertEqual(user.email, "normal@user.com")
+        self.assertEquals(user.check_password("foo"), True)
         self.assertFalse(user.is_active)
         self.assertFalse(user.is_staff)
         self.assertFalse(user.is_superuser)
         try:
             # username is None for the AbstractUser option
             # username does not exist for the AbstractBaseUser option
-            self.assertIsNone(user.username)
+            self.assertIsNotNone(user.username)
         except AttributeError:
             pass
         with self.assertRaises(TypeError):
@@ -33,7 +34,7 @@ class UsersManagersTests(TestCase):
         self.assertTrue(admin_user.is_staff)
         self.assertTrue(admin_user.is_superuser)
         try:
-            self.assertIsNone(admin_user.username)
+            self.assertIsNotNone(admin_user.username)
         except AttributeError:
             pass
         with self.assertRaises(ValueError):

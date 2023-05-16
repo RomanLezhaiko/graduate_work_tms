@@ -9,4 +9,4 @@ from .tasks import send_email_task
 
 @receiver(post_save, sender=Order)
 def gen_slug_field(sender, instance, **kwargs):
-    send_email_task.delay(instance.id)
+    send_email_task.delay(instance.id, instance.user.email)

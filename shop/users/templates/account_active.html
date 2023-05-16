@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row m-3">
+        <h4>
+            Ваш аккаунт активирован, теперь вы можете войти в систему
+            <a href="{% url 'login_user' %}" class="btn btn-warning">Войти</a>
+        </h4>
+    </div>
+</div>
+
+{% endblock %}
