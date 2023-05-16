@@ -10,12 +10,16 @@
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">{{ product.name }}</h6>
-                            <h5 id="card-price" class="card-title">{{ product.price }} р.</h5>  
+                            <h5 id="card-price" class="card-title">{{ product.price }} р.</h5>
+                            {% if user.is_authenticated %}  
                             <form action="{% url 'cart_add' product.id %}" method="post">
                                 {% csrf_token %}
                                 <input type="hidden" value="1" name="quantity" id="id_quantity">
                                 <input type="submit" class="btn btn-warning" value="Добавить в корзину">
                             </form>
+                            {% else %}
+                            <a href="{% url 'login_user' %}" class="btn btn-warning">Добавить в корзину</a>
+                            {% endif %}
                         </div>
                     </a>
                 </div>  

@@ -1,7 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_POST
 from django.contrib import messages
-from django.http import HttpResponse
 
 from products.models import Product
 from .cart import Cart
@@ -13,15 +12,19 @@ from settings.base import SHOP_NAME
 @require_POST
 def update_cart(request):
     cart = Cart(request)
-    tmp_dict = dict(request.POST)
-    product_id_list = tmp_dict['product_id']
-    quantity_list = tmp_dict['quantity']
-    products = list(Product.objects.filter(id__in=product_id_list))
-    
-    for i in range(len(products)):
-        cart.add(product=products[i], quantity=int(quantity_list[i]), update_quantity=int(quantity_list[i]))
+    if len(cart) > 0:
+        tmp_dict = dict(request.POST)
+        product_id_list = tmp_dict['product_id']
+        quantity_list = tmp_dict['quantity']
+        products = list(Product.objects.filter(id__in=product_id_list))
+        
+        for i in range(len(products)):
+            cart.add(product=products[i], quantity=int(quantity_list[i]), update_quantity=int(quantity_list[i]))
 
-    return redirect('order_create')
+        return redirect('order_create')
+    
+    messages.success(request, 'Ваша корзина пуста. Добавьте хотя бы один товар.')
+    return redirect('cart_detail')
 
 
 @require_POST
