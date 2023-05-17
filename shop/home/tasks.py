@@ -13,4 +13,3 @@ def send_email_task(self, instance_id, instance_status):
             settings.EMAIL_HOST_USER,
             ['roman.lezhaiko@gmail.com'],
         )
-        print('send by celery')

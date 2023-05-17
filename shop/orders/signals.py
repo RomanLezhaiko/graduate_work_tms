@@ -4,9 +4,10 @@ from django.core.mail import send_mail
 from django.conf import settings
 
 from .models import Order
-from .tasks import send_email_task
+from .tasks import send_email_task, send_email_to_manager_task
 
 
 @receiver(post_save, sender=Order)
 def gen_slug_field(sender, instance, **kwargs):
     send_email_task.delay(instance.id, instance.user.email)
+    send_email_to_manager_task.delay(instance.id)
