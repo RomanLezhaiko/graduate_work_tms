@@ -17,11 +17,15 @@
                 <h5><span class="act-price">{{ product.price }} руб.</span></h5>
             </div>
             <div class="cart mt-2 text-center">
+                {% if user.is_authenticated %}
                 <form action="{% url 'cart_add' product.id %}" method="post">
                     {% csrf_token %}
                     <input type="hidden" value="1" name="quantity" id="id_quantity">
                     <input type="submit" class="btn btn-warning" value="Добавить в корзину">
                 </form>
+                {% else %}
+                    <a href="{% url 'login_user' %}" class="btn btn-warning">Добавить в корзину</a>
+                {% endif %}
             </div>
 
             

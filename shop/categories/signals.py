@@ -12,4 +12,4 @@ def gen_slug_field(sender, instance, **kwargs):
     if instance.parent is None:
         instance.slug = slugify(unidecode(instance.name))
     else:
-        instance.slug = slugify(unidecode(instance.parent.name + '_' + instance.name))
+        instance.slug = slugify(unidecode(instance.parent.name + '-' + instance.name))

@@ -5,11 +5,22 @@ from users.models import CustomUser
 
 
 class Order(models.Model):
+    STATUS_NEW = 0
+    STATUS_PENDING = 1
+    STATUS_DELIVERED = 2
+
+    STATUS_CHOICES = [
+        (STATUS_NEW, 'New'),
+        (STATUS_PENDING, 'Pending'),
+        (STATUS_DELIVERED, 'Delivered'),
+    ]
+
     first_name = models.CharField('Имя', max_length=50)
     last_name = models.CharField('Фамилия', max_length=50)
     phone = models.CharField('Телефон', max_length=50)
     address = models.CharField('Адрес доставки', max_length=250)
     city = models.CharField('Город', max_length=100)
+    status = models.IntegerField(choices=STATUS_CHOICES, default=STATUS_NEW)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)

@@ -1,0 +1,54 @@
+[
+    {
+        "model": "categories.category",
+        "pk": 1,
+        "fields": {
+            "name": "Бытовая техника",
+            "parent": null,
+            "slug": "bytovaia-tekhnika",
+            "lft": 1,
+            "rght": 8,
+            "tree_id": 1,
+            "level": 0
+        }
+    },
+    {
+        "model": "categories.category",
+        "pk": 2,
+        "fields": {
+            "name": "Бытовая техника 1",
+            "parent": 1,
+            "slug": "bytovaia-tekhnika-1",
+            "lft": 2,
+            "rght": 7,
+            "tree_id": 1,
+            "level": 1
+        }
+    },
+    {
+        "model": "categories.category",
+        "pk": 3,
+        "fields": {
+            "name": "Бытовая техника 2",
+            "parent": 2,
+            "slug": "bytovaia-tekhnika-2",
+            "lft": 3,
+            "rght": 4,
+            "tree_id": 1,
+            "level": 2
+        }
+    },
+    {
+        "model": "categories.category",
+        "pk": 4,
+        "fields": {
+            "name": "Бытовая техника 3",
+            "parent": 2,
+            "slug": "bytovaia-tekhnika-3",
+            "lft": 5,
+            "rght": 6,
+            "tree_id": 1,
+            "level": 2
+        }
+    }
+]
