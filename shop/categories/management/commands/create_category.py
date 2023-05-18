@@ -1,34 +1,21 @@
+import json
+
 from django.core.management.base import BaseCommand
+from django.db.utils import IntegrityError
 
 from categories.models import Category
 
-
-# categories = ['Компьютеры и переферия', 'Смартфоны, ТВ и электроника', 'Товары для дома']
-
-categories = [
-    {
-        'name': 'Компьютеры и переферия',
-        'parent_id': None
-    },
-    {
-        'name': 'Смартфоны, ТВ и электроника',
-        'parent_id': None
-    },
-    {
-        'name': 'Товары для дома',
-        'parent_id': None
-    },
-    {
-        'name': 'Смартфоны, аксессуары',
-        'parent_id': 45
-    }
-]
 
 class Command(BaseCommand):
     help = 'Fill db categories data.'
 
 
     def handle(self, *args, **kwargs):
+        categories = []
+        with open('/home/roman/dev/git_projects/graduate_work_tms/shop/categories/management/commands/category.json', 'r') as f:
+            categories = json.load(fp=f)
+
+
         for tmp_dict in categories:
             cat = Category()
             cat.name = tmp_dict['name']
@@ -38,7 +25,12 @@ class Command(BaseCommand):
                 parent_category = Category.objects.filter(id=tmp_dict['parent_id']).first()
                 cat.parent = parent_category
 
-            cat.save()
+            try:
+                cat.save()
+            except IntegrityError:
+                cat.name = tmp_dict['name'] + '-another'
+                cat.save()
+
         
         print('All categories was created!')
 
