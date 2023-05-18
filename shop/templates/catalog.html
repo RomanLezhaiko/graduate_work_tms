@@ -1,3 +1,6 @@
+{% load cache %}
+
+{% cache 86400 catalog %}
 {% load mptt_tags %}
 <div class="container">
     <div class="accordion m-3" id="accordionPanelsStayOpenExample">
@@ -35,3 +38,4 @@
         </div>
     </div>
 </div>
+{% endcache %}
