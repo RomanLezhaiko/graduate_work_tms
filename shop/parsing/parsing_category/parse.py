@@ -33,13 +33,6 @@ for category in all_category_in_catalog:
     
     links.append(f'https://www.21vek.by{category["href"]}')
 
-
-
-example_dict = {
-        'name': 'Компьютеры и переферия',
-        'parent_id': None
-    }
-
 category_list = []
 i = 1
 

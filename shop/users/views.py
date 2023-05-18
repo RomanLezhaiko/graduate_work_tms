@@ -1,4 +1,3 @@
-from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.contrib.auth import logout, login, authenticate
 from django.urls import reverse
@@ -13,7 +12,6 @@ from settings.base import SHOP_NAME
 from .forms import LoginForm, SignupForm
 from .tokens import account_activation_token  
 from .tasks import send_email_task
-from .models import CustomUser
 
 
 def signup(request):  

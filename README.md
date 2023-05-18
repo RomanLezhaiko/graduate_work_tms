@@ -42,12 +42,12 @@ python3 -m celery -A shop worker -l INFO
 ```
 
 
-
-
-
-
 P.S. For deploy version
 1. change DEBUG in setting to False
 2. change static url, root
 3. collectstatic
 4. runserver
+
+
+P.S. for running test
+1. Enable redis: redis-server --port 7777
