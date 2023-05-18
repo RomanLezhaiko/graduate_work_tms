@@ -12,7 +12,12 @@
         </p>
         
         <div class="col-12 text-center">
-            <a href="{% url 'review_create' %}" class="btn btn-primary">Оставить отзыв</a>
+            {% if user.is_authenticated %}
+            <a href="{% url 'review_create' %}" class="btn btn-primary">Оставить отзыв</a>    
+            {% else %}
+            <a href="{% url 'login_user' %}" class="btn btn-primary">Отправить отзыв</a>
+            {% endif %}
+            
         </div>  
         
         
@@ -20,9 +25,6 @@
         <div class="card my-4">
             <div class="card-body">
                 <h5 class="card-title">
-                    <!--<img src="avatars/3-avatar.png"
-                            class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="90"
-                            height="90">-->
                     {{ user.username }}
                 </h5>
                 
