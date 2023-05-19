@@ -1,0 +1,595 @@
+[
+    {
+        "id": 3,
+        "name": "\u0425\u043e\u043b\u043e\u0434\u0438\u043b\u044c\u043d\u0438\u043a\u0438",
+        "parent_id": 2,
+        "link": "https://www.21vek.by/refrigerators/",
+        "products": {
+            "1": "https://www.21vek.by/refrigerators/atlant_4208000.html",
+            "2": "https://www.21vek.by/refrigerators/doorcoolinggwb509clzm_lg.html",
+            "3": "https://www.21vek.by/refrigerators/cnmv5335e20vs_beko.html",
+            "4": "https://www.21vek.by/refrigerators/doorcoolinggwb509sbnm_lg.html",
+            "5": "https://www.21vek.by/refrigerators/gwb509smum_lg.html",
+            "6": "https://www.21vek.by/refrigerators/atlant_4210000.html",
+            "7": "https://www.21vek.by/refrigerators/atlant_282280.html",
+            "8": "https://www.21vek.by/refrigerators/doorcoolinggwb509slkm_lg.html",
+            "9": "https://www.21vek.by/refrigerators/doorcoolinggwb459sqlm_lg.html",
+            "10": "https://www.21vek.by/refrigerators/atlant_6021031.html"
+        }
+    },
+    {
+        "id": 5,
+        "name": "\u041a\u0443\u0445\u043e\u043d\u043d\u044b\u0435 \u043f\u043b\u0438\u0442\u044b",
+        "parent_id": 2,
+        "link": "https://www.21vek.by/cookers/",
+        "products": {
+            "1": "https://www.21vek.by/cookers/215001_cezaris.html",
+            "2": "https://www.21vek.by/cookers/215000_cezaris.html",
+            "3": "https://www.21vek.by/cookers/gefest_120078.html",
+            "4": "https://www.21vek.by/cookers/gefest_320008.html",
+            "5": "https://www.21vek.by/cookers/32000662_gefest.html",
+            "6": "https://www.21vek.by/cookers/gefest_320006.html",
+            "7": "https://www.21vek.by/cookers/gefest_32000519.html",
+            "8": "https://www.21vek.by/cookers/gefest_320005.html",
+            "9": "https://www.21vek.by/cookers/gefest_32000819.html",
+            "10": "https://www.21vek.by/cookers/1200789_gefest.html"
+        }
+    },
+    {
+        "id": 11,
+        "name": "\u0421\u0442\u0438\u0440\u0430\u043b\u044c\u043d\u044b\u0435 \u043c\u0430\u0448\u0438\u043d\u044b",
+        "parent_id": 10,
+        "link": "https://www.21vek.by/washing_machines/",
+        "products": {
+            "1": "https://www.21vek.by/washing_machines/f2j3ns0w_lg.html",
+            "2": "https://www.21vek.by/washing_machines/iwub41051by_indesit.html",
+            "3": "https://www.21vek.by/washing_machines/f2j3ws1w_lg.html",
+            "4": "https://www.21vek.by/washing_machines/f2j3hs2w_lg.html",
+            "5": "https://www.21vek.by/washing_machines/bwsa51051s_indesit.html",
+            "6": "https://www.21vek.by/washing_machines/iwsc51051by_indesit.html",
+            "7": "https://www.21vek.by/washing_machines/f2m5hs4wp_lg.html",
+            "8": "https://www.21vek.by/washing_machines/indesit_iwub4085.html",
+            "9": "https://www.21vek.by/washing_machines/atlant_50107.html",
+            "10": "https://www.21vek.by/washing_machines/4010900_atlant.html"
+        }
+    },
+    {
+        "id": 13,
+        "name": "\u0423\u0442\u044e\u0433\u0438",
+        "parent_id": 10,
+        "link": "https://www.21vek.by/irons/",
+        "products": {
+            "1": "https://www.21vek.by/irons/ric278_redmond.html",
+            "2": "https://www.21vek.by/irons/gc174240_philips.html",
+            "3": "https://www.21vek.by/irons/la9415_lornay.html",
+            "4": "https://www.21vek.by/irons/vt8316_vitek.html",
+            "5": "https://www.21vek.by/irons/vt1234_vitek.html",
+            "6": "https://www.21vek.by/irons/ht5110_hitt.html",
+            "7": "https://www.21vek.by/irons/gc175620_philips.html",
+            "8": "https://www.21vek.by/irons/ar3124_aresa.html",
+            "9": "https://www.21vek.by/irons/vt8304bk_vitek.html",
+            "10": "https://www.21vek.by/irons/scsi30k25_scarlett.html"
+        }
+    },
+    {
+        "id": 14,
+        "name": "\u041e\u0442\u043f\u0430\u0440\u0438\u0432\u0430\u0442\u0435\u043b\u0438",
+        "parent_id": 10,
+        "link": "https://www.21vek.by/garment_steamers/",
+        "products": {
+            "1": "https://www.21vek.by/garment_steamers/br4122_brayer.html",
+            "2": "https://www.21vek.by/garment_steamers/gl6198_galaxy.html",
+            "3": "https://www.21vek.by/garment_steamers/ar2305_aresa.html",
+            "4": "https://www.21vek.by/garment_steamers/kt9431_kitfort.html",
+            "5": "https://www.21vek.by/garment_steamers/handgarmentsteamergs1ags0001_aeno.html",
+            "6": "https://www.21vek.by/garment_steamers/kt9432_kitfort.html",
+            "7": "https://www.21vek.by/garment_steamers/vt2440_vitek.html",
+            "8": "https://www.21vek.by/garment_steamers/ar2302_aresa.html",
+            "9": "https://www.21vek.by/garment_steamers/kt9843_kitfort.html",
+            "10": "https://www.21vek.by/garment_steamers/rhs6802_redmond.html"
+        }
+    },
+    {
+        "id": 15,
+        "name": "\u0428\u0432\u0435\u0439\u043d\u044b\u0435, \u0432\u044b\u0448\u0438\u0432\u0430\u043b\u044c\u043d\u044b\u0435 \u043c\u0430\u0448\u0438\u043d\u044b",
+        "parent_id": 10,
+        "link": "https://www.21vek.by/sewing_machines/",
+        "products": {
+            "1": "https://www.21vek.by/sewing_machines/rh202_sundays_home.html",
+            "2": "https://www.21vek.by/sewing_machines/30_comfort.html",
+            "3": "https://www.21vek.by/sewing_machines/ag330_sipl.html",
+            "4": "https://www.21vek.by/sewing_machines/color55_janome.html",
+            "5": "https://www.21vek.by/sewing_machines/jl23_janome.html",
+            "6": "https://www.21vek.by/sewing_machines/xv5_janome.html",
+            "7": "https://www.21vek.by/sewing_machines/xv3_janome.html",
+            "8": "https://www.21vek.by/sewing_machines/napoli2750_vlk.html",
+            "9": "https://www.21vek.by/sewing_machines/singer_8280.html",
+            "10": "https://www.21vek.by/sewing_machines/rh201_sundays_home.html"
+        }
+    },
+    {
+        "id": 23,
+        "name": "\u0412\u0430\u0440\u043e\u0447\u043d\u044b\u0435  \u043f\u0430\u043d\u0435\u043b\u0438",
+        "parent_id": 22,
+        "link": "https://www.21vek.by/hobs/",
+        "products": {
+            "1": "https://www.21vek.by/hobs/gefest_22303.html",
+            "2": "https://www.21vek.by/hobs/223201_gefest.html",
+            "3": "https://www.21vek.by/hobs/1214012_gefest.html",
+            "4": "https://www.21vek.by/hobs/gefest_12102.html",
+            "5": "https://www.21vek.by/hobs/gefest_223011.html",
+            "6": "https://www.21vek.by/hobs/21000133_gefest.html",
+            "7": "https://www.21vek.by/hobs/22320112_gefest.html",
+            "8": "https://www.21vek.by/hobs/121401_gefest.html",
+            "9": "https://www.21vek.by/hobs/gefest_321021.html",
+            "10": "https://www.21vek.by/hobs/1214015_gefest.html"
+        }
+    },
+    {
+        "id": 24,
+        "name": "\u0414\u0443\u0445\u043e\u0432\u044b\u0435 \u0448\u043a\u0430\u0444\u044b",
+        "parent_id": 22,
+        "link": "https://www.21vek.by/ovens/",
+        "products": {
+            "1": "https://www.21vek.by/ovens/gefest_60201a.html",
+            "2": "https://www.21vek.by/ovens/62202_gefest.html",
+            "3": "https://www.21vek.by/ovens/gefest_60201.html",
+            "4": "https://www.21vek.by/ovens/602011_gefest.html",
+            "5": "https://www.21vek.by/ovens/62204_gefest.html",
+            "6": "https://www.21vek.by/ovens/gefest_62202_4.html",
+            "7": "https://www.21vek.by/ovens/62101_gefest.html",
+            "8": "https://www.21vek.by/ovens/622041s_gefest.html",
+            "9": "https://www.21vek.by/ovens/62103_gefest.html",
+            "10": "https://www.21vek.by/ovens/gefest_62201.html"
+        }
+    },
+    {
+        "id": 25,
+        "name": "\u0425\u043e\u043b\u043e\u0434\u0438\u043b\u044c\u043d\u0438\u043a\u0438 \u0432\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0435\u043c\u044b\u0435",
+        "parent_id": 22,
+        "link": "https://www.21vek.by/builtin_refrigerators/",
+        "products": {
+            "1": "https://www.21vek.by/builtin_refrigerators/atlant_4307000.html",
+            "2": "https://www.21vek.by/builtin_refrigerators/sp40802eu_whirlpool.html",
+            "3": "https://www.21vek.by/builtin_refrigerators/mbf193nffw_maunfeld.html",
+            "4": "https://www.21vek.by/builtin_refrigerators/sp40801eu_whirlpool.html",
+            "5": "https://www.21vek.by/builtin_refrigerators/brb266050wwwt_samsung.html",
+            "6": "https://www.21vek.by/builtin_refrigerators/mbf193slfw_maunfeld.html",
+            "7": "https://www.21vek.by/builtin_refrigerators/mbf177nfwh_maunfeld.html",
+            "8": "https://www.21vek.by/builtin_refrigerators/kir41af20r_bosch.html",
+            "9": "https://www.21vek.by/builtin_refrigerators/mbl88sw_maunfeld.html",
+            "10": "https://www.21vek.by/builtin_refrigerators/br121221sx_zigmund_shtain.html"
+        }
+    },
+    {
+        "id": 28,
+        "name": "\u041a\u043e\u0444\u0435\u043c\u0430\u0448\u0438\u043d\u044b \u0432\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0435\u043c\u044b\u0435",
+        "parent_id": 22,
+        "link": "https://www.21vek.by/coffee_machines/builtin_coffee_machines/",
+        "products": {
+            "1": "https://www.21vek.by/coffee_machines/ctl636eb6_bosch.html",
+            "2": "https://www.21vek.by/coffee_machines/amcm1503b_maunfeld.html",
+            "3": "https://www.21vek.by/coffee_machines/amcm1503s_maunfeld.html",
+            "4": "https://www.21vek.by/coffee_machines/ctl636es1_bosch.html",
+            "5": "https://www.21vek.by/coffee_machines/ctl636es6_bosch.html",
+            "6": "https://www.21vek.by/coffee_machines/ct636les1_siemens.html",
+            "7": "https://www.21vek.by/coffee_machines/kke884500b_aeg.html",
+            "8": "https://www.21vek.by/coffee_machines/ct636les6_siemens.html",
+            "9": "https://www.21vek.by/coffee_machines/ct636lew1_siemens.html"
+        }
+    },
+    {
+        "id": 36,
+        "name": "\u0412\u0435\u043d\u0442\u0438\u043b\u044f\u0442\u043e\u0440\u044b \u0431\u044b\u0442\u043e\u0432\u044b\u0435",
+        "parent_id": 35,
+        "link": "https://www.21vek.by/blowers/",
+        "products": {
+            "1": "https://www.21vek.by/blowers/scsf111b27_scarlett.html",
+            "2": "https://www.21vek.by/blowers/hsf16f1601_hyundai.html",
+            "3": "https://www.21vek.by/blowers/tsf1603rc_timberk.html",
+            "4": "https://www.21vek.by/blowers/scdf111s01_scarlett.html",
+            "5": "https://www.21vek.by/blowers/vf40pb_making_oasis_everywhere.html",
+            "6": "https://www.21vek.by/blowers/tdf421_timberk.html",
+            "7": "https://www.21vek.by/blowers/scsf111b24_scarlett.html",
+            "8": "https://www.21vek.by/blowers/scdf111s07_scarlett.html",
+            "9": "https://www.21vek.by/blowers/dx1611t_dux.html",
+            "10": "https://www.21vek.by/blowers/scsf111b29_scarlett.html"
+        }
+    },
+    {
+        "id": 39,
+        "name": "\u0412\u043e\u0434\u043e\u043d\u0430\u0433\u0440\u0435\u0432\u0430\u0442\u0435\u043b\u0438",
+        "parent_id": 35,
+        "link": "https://www.21vek.by/waterheaters/",
+        "products": {
+            "1": "https://www.21vek.by/waterheaters/kpp_oasis.html",
+            "2": "https://www.21vek.by/waterheaters/ath7425_atlanta.html",
+            "3": "https://www.21vek.by/waterheaters/es30v_edisson.html",
+            "4": "https://www.21vek.by/waterheaters/nts50v15k_fais.html",
+            "5": "https://www.21vek.by/waterheaters/7426_atlanta.html",
+            "6": "https://www.21vek.by/waterheaters/smartfix20ts35_electrolux.html",
+            "7": "https://www.21vek.by/waterheaters/dune1r80v15kpl_ariston.html",
+            "8": "https://www.21vek.by/waterheaters/nts80v15k_fais.html",
+            "9": "https://www.21vek.by/waterheaters/smarttap_zanussi.html",
+            "10": "https://www.21vek.by/waterheaters/es50vhe1_haier.html"
+        }
+    },
+    {
+        "id": 40,
+        "name": "\u0423\u0432\u043b\u0430\u0436\u043d\u0438\u0442\u0435\u043b\u0438, \u043e\u0447\u0438\u0441\u0442\u0438\u0442\u0435\u043b\u0438 \u0432\u043e\u0437\u0434\u0443\u0445\u0430",
+        "parent_id": 35,
+        "link": "https://www.21vek.by/humidifiers/",
+        "products": {
+            "1": "https://www.21vek.by/humidifiers/scah986e14_scarlett.html",
+            "2": "https://www.21vek.by/humidifiers/scah986e19_scarlett.html",
+            "3": "https://www.21vek.by/humidifiers/scah986m27_scarlett.html",
+            "4": "https://www.21vek.by/humidifiers/egg2100101_zez.html",
+            "5": "https://www.21vek.by/humidifiers/uhb200_ballu.html",
+            "6": "https://www.21vek.by/humidifiers/scah986m26_scarlett.html",
+            "7": "https://www.21vek.by/humidifiers/demld220_deerma.html",
+            "8": "https://www.21vek.by/humidifiers/zh2ceramico_zanussi.html",
+            "9": "https://www.21vek.by/humidifiers/uhb205_ballu_03.html",
+            "10": "https://www.21vek.by/humidifiers/nhl203_neoclima.html"
+        }
+    },
+    {
+        "id": 42,
+        "name": "\u041e\u0431\u043e\u0433\u0440\u0435\u0432\u0430\u0442\u0435\u043b\u0438",
+        "parent_id": 35,
+        "link": "https://www.21vek.by/heaters/",
+        "products": {
+            "1": "https://www.21vek.by/heaters/1_resanta_01.html",
+            "2": "https://www.21vek.by/heaters/800_resanta_01.html",
+            "3": "https://www.21vek.by/heaters/bfhs10_ballu.html",
+            "4": "https://www.21vek.by/heaters/ar2901_aresa.html",
+            "5": "https://www.21vek.by/heaters/bohcm11wdn_ballu.html",
+            "6": "https://www.21vek.by/heaters/1700_resanta.html",
+            "7": "https://www.21vek.by/heaters/1800_resanta.html",
+            "8": "https://www.21vek.by/heaters/ar2903_aresa.html",
+            "9": "https://www.21vek.by/heaters/1500_resanta_02.html",
+            "10": "https://www.21vek.by/heaters/1_resanta.html"
+        }
+    },
+    {
+        "id": 53,
+        "name": "\u0421\u044d\u043d\u0434\u0432\u0438\u0447\u043d\u0438\u0446\u044b, \u0445\u043e\u0442-\u0434\u043e\u0433 \u043c\u0435\u0439\u043a\u0435\u0440\u044b",
+        "parent_id": 50,
+        "link": "https://www.21vek.by/sandwichers/",
+        "products": {
+            "1": "https://www.21vek.by/sandwichers/rbm611_redmond.html",
+            "2": "https://www.21vek.by/sandwichers/rmbm603_redmond.html",
+            "3": "https://www.21vek.by/sandwichers/rmbm6195_redmond.html",
+            "4": "https://www.21vek.by/sandwichers/mw1553_maxwell.html",
+            "5": "https://www.21vek.by/sandwichers/htsc005_holt.html",
+            "6": "https://www.21vek.by/sandwichers/ar1205_aresa.html",
+            "7": "https://www.21vek.by/sandwichers/vt7149_vitek.html",
+            "8": "https://www.21vek.by/sandwichers/ath1057_atlanta.html",
+            "9": "https://www.21vek.by/sandwichers/ath1058_atlanta.html",
+            "10": "https://www.21vek.by/sandwichers/ar1206_aresa.html"
+        }
+    },
+    {
+        "id": 54,
+        "name": "\u0422\u043e\u0441\u0442\u0435\u0440\u044b",
+        "parent_id": 50,
+        "link": "https://www.21vek.by/toasters/",
+        "products": {
+            "1": "https://www.21vek.by/toasters/ht5305_hitt.html",
+            "2": "https://www.21vek.by/toasters/hd258190_philips.html",
+            "3": "https://www.21vek.by/toasters/to2120bl_oursson.html",
+            "4": "https://www.21vek.by/toasters/htet003_holt.html",
+            "5": "https://www.21vek.by/toasters/hd258390_philips.html",
+            "6": "https://www.21vek.by/toasters/to2120sp_oursson.html",
+            "7": "https://www.21vek.by/toasters/hd263590_philips.html",
+            "8": "https://www.21vek.by/toasters/to2120iv_oursson.html",
+            "9": "https://www.21vek.by/toasters/ar3005_aresa.html",
+            "10": "https://www.21vek.by/toasters/htet004_holt.html"
+        }
+    },
+    {
+        "id": 58,
+        "name": "\u0420\u043e\u0441\u0442\u0435\u0440\u044b, \u043c\u0438\u043d\u0438-\u043f\u0435\u0447\u0438",
+        "parent_id": 50,
+        "link": "https://www.21vek.by/table_cookers/36125/",
+        "products": {
+            "1": "https://www.21vek.by/table_cookers/gefest_420_1.html",
+            "2": "https://www.21vek.by/table_cookers/cezaris_50101.html",
+            "3": "https://www.21vek.by/table_cookers/gefest_10019.html",
+            "4": "https://www.21vek.by/table_cookers/mo1402dc_oursson.html",
+            "5": "https://www.21vek.by/table_cookers/gefest_100.html",
+            "6": "https://www.21vek.by/table_cookers/sceo93o22_scarlett.html",
+            "7": "https://www.21vek.by/table_cookers/mo4225dc_oursson.html",
+            "8": "https://www.21vek.by/table_cookers/mo3815dc_oursson.html",
+            "9": "https://www.21vek.by/table_cookers/gefest_42019.html",
+            "10": "https://www.21vek.by/table_cookers/mo2300bl_oursson.html"
+        }
+    },
+    {
+        "id": 69,
+        "name": "\u041f\u044b\u043b\u0435\u0441\u043e\u0441\u044b",
+        "parent_id": 68,
+        "link": "https://www.21vek.by/vacuum/",
+        "products": {
+            "1": "https://www.21vek.by/vacuum/dx118c_deerma.html",
+            "2": "https://www.21vek.by/vacuum/dx700_deerma.html",
+            "3": "https://www.21vek.by/vacuum/dx700s_deerma.html",
+            "4": "https://www.21vek.by/vacuum/wd3v17420_karcher.html",
+            "5": "https://www.21vek.by/vacuum/vcc4131s3axev_samsung.html",
+            "6": "https://www.21vek.by/vacuum/vc5420nhtw_lg.html",
+            "7": "https://www.21vek.by/vacuum/kt510_kitfort.html",
+            "8": "https://www.21vek.by/vacuum/dx115c_deerma.html",
+            "9": "https://www.21vek.by/vacuum/vt8130_vitek.html",
+            "10": "https://www.21vek.by/vacuum/wv2premiumpluswhite16332160_karcher.html"
+        }
+    },
+    {
+        "id": 70,
+        "name": "\u041f\u044b\u043b\u0435\u0441\u043e\u0441\u044b \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435",
+        "parent_id": 68,
+        "link": "https://www.21vek.by/vacuum/11555/",
+        "products": {
+            "1": "https://www.21vek.by/vacuum/universalvac15_bosch.html",
+            "2": "https://www.21vek.by/vacuum/150030_vihr.html",
+            "3": "https://www.21vek.by/vacuum/150020_vihr.html",
+            "4": "https://www.21vek.by/vacuum/davc6025s_daewo.html",
+            "5": "https://www.21vek.by/vacuum/vc7320_sturm.html",
+            "6": "https://www.21vek.by/vacuum/gas1225pl_bosch.html",
+            "7": "https://www.21vek.by/vacuum/tevc3630lissolo_einhell.html",
+            "8": "https://www.21vek.by/vacuum/bax1520smartclean_bort.html",
+            "9": "https://www.21vek.by/vacuum/150020_resanta.html",
+            "10": "https://www.21vek.by/vacuum/kvc1800ds_kolner.html"
+        }
+    },
+    {
+        "id": 72,
+        "name": "\u041f\u0430\u0440\u043e\u043e\u0447\u0438\u0441\u0442\u0438\u0442\u0435\u043b\u0438",
+        "parent_id": 68,
+        "link": "https://www.21vek.by/steam_cleaner/",
+        "products": {
+            "1": "https://www.21vek.by/steam_cleaner/sc2easyfixpremium_karcher.html",
+            "2": "https://www.21vek.by/steam_cleaner/qj0501_sundays_home_01.html",
+            "3": "https://www.21vek.by/steam_cleaner/qj0501_sundays_home_02.html",
+            "4": "https://www.21vek.by/steam_cleaner/qj0501_sundays_home.html",
+            "5": "https://www.21vek.by/steam_cleaner/sc3easyfixpremium_karcher.html",
+            "6": "https://www.21vek.by/steam_cleaner/sc2easyfix_karcher_01.html",
+            "7": "https://www.21vek.by/steam_cleaner/gl6270_galaxy.html",
+            "8": "https://www.21vek.by/steam_cleaner/odysseyq442_endever.html",
+            "9": "https://www.21vek.by/steam_cleaner/kt10051_kitfort.html",
+            "10": "https://www.21vek.by/steam_cleaner/gmvsc38_grand_master_02.html"
+        }
+    },
+    {
+        "id": 75,
+        "name": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0447\u0430\u0439\u043d\u0438\u043a\u0438",
+        "parent_id": 74,
+        "link": "https://www.21vek.by/teapots/",
+        "products": {
+            "1": "https://www.21vek.by/teapots/br1013_brayer.html",
+            "2": "https://www.21vek.by/teapots/la4612_lornay.html",
+            "3": "https://www.21vek.by/teapots/btkt1800s_blackton.html",
+            "4": "https://www.21vek.by/teapots/btkt1717s_blackton.html",
+            "5": "https://www.21vek.by/teapots/la4613_lornay.html",
+            "6": "https://www.21vek.by/teapots/gl0559_galaxy.html",
+            "7": "https://www.21vek.by/teapots/mismartkettleprobhr4198glmjhwsh02ym_xiaomi.html",
+            "8": "https://www.21vek.by/teapots/twk7090b_bosch.html",
+            "9": "https://www.21vek.by/teapots/htkt012_holt.html",
+            "10": "https://www.21vek.by/teapots/ek1809s_bbk.html"
+        }
+    },
+    {
+        "id": 76,
+        "name": "\u041a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0438, \u043a\u043e\u0444\u0435\u043c\u0430\u0448\u0438\u043d\u044b",
+        "parent_id": 74,
+        "link": "https://www.21vek.by/coffee_machines/",
+        "products": {
+            "1": "https://www.21vek.by/coffee_machines/vitek_vt1514bk.html",
+            "2": "https://www.21vek.by/coffee_machines/htcm007_holt.html",
+            "3": "https://www.21vek.by/coffee_machines/ar1601_aresa.html",
+            "4": "https://www.21vek.by/coffee_machines/mw1650bk_maxwell.html",
+            "5": "https://www.21vek.by/coffee_machines/lirikaplusri984101_saeco.html",
+            "6": "https://www.21vek.by/coffee_machines/mw1657bk_maxwell.html",
+            "7": "https://www.21vek.by/coffee_machines/vitek_vt1511.html",
+            "8": "https://www.21vek.by/coffee_machines/br1106_brayer.html",
+            "9": "https://www.21vek.by/coffee_machines/vt8489_vitek.html",
+            "10": "https://www.21vek.by/coffee_machines/ar1604_aresa.html"
+        }
+    },
+    {
+        "id": 78,
+        "name": "\u041a\u043e\u0444\u0435\u043c\u043e\u043b\u043a\u0438",
+        "parent_id": 74,
+        "link": "https://www.21vek.by/coffee_mills/",
+        "products": {
+            "1": "https://www.21vek.by/coffee_mills/htcgr003_holt.html",
+            "2": "https://www.21vek.by/coffee_mills/ar3606_aresa.html",
+            "3": "https://www.21vek.by/coffee_mills/htcgr005_holt.html",
+            "4": "https://www.21vek.by/coffee_mills/htcgr006_holt.html",
+            "5": "https://www.21vek.by/coffee_mills/acg331_normann.html",
+            "6": "https://www.21vek.by/coffee_mills/ar3604_aresa.html",
+            "7": "https://www.21vek.by/coffee_mills/br1182_brayer.html",
+            "8": "https://www.21vek.by/coffee_mills/gl0906_galaxy.html",
+            "9": "https://www.21vek.by/coffee_mills/ath3392_atlanta.html",
+            "10": "https://www.21vek.by/coffee_mills/ar3605_aresa.html"
+        }
+    },
+    {
+        "id": 92,
+        "name": "\u0411\u043b\u0435\u043d\u0434\u0435\u0440\u044b",
+        "parent_id": 91,
+        "link": "https://www.21vek.by/blenders/",
+        "products": {
+            "1": "https://www.21vek.by/blenders/br1242_brayer.html",
+            "2": "https://www.21vek.by/blenders/br1244_brayer.html",
+            "3": "https://www.21vek.by/blenders/vt8522w_vitek.html",
+            "4": "https://www.21vek.by/blenders/htbl012_holt.html",
+            "5": "https://www.21vek.by/blenders/htbl011_holt.html",
+            "6": "https://www.21vek.by/blenders/schb42m47_scarlett.html",
+            "7": "https://www.21vek.by/blenders/bh345m_zigmund_shtain.html",
+            "8": "https://www.21vek.by/blenders/vt8524w_vitek.html",
+            "9": "https://www.21vek.by/blenders/vt3425_vitek.html",
+            "10": "https://www.21vek.by/blenders/vt3419_vitek.html"
+        }
+    },
+    {
+        "id": 93,
+        "name": "\u041a\u0443\u0445\u043e\u043d\u043d\u044b\u0435 \u043a\u043e\u043c\u0431\u0430\u0439\u043d\u044b, \u0438\u0437\u043c\u0435\u043b\u044c\u0447\u0438\u0442\u0435\u043b\u0438",
+        "parent_id": 91,
+        "link": "https://www.21vek.by/food_processors/",
+        "products": {
+            "1": "https://www.21vek.by/food_processors/kt3089_kitfort.html",
+            "2": "https://www.21vek.by/food_processors/mum4880_bosch.html",
+            "3": "https://www.21vek.by/food_processors/afp947_normann.html",
+            "4": "https://www.21vek.by/food_processors/gl2309_galaxy.html",
+            "5": "https://www.21vek.by/food_processors/ar1706_aresa.html",
+            "6": "https://www.21vek.by/food_processors/belvar_2.html",
+            "7": "https://www.21vek.by/food_processors/ch31r_zigmund_shtain.html",
+            "8": "https://www.21vek.by/food_processors/ar1701_aresa.html",
+            "9": "https://www.21vek.by/food_processors/ar1703_aresa.html",
+            "10": "https://www.21vek.by/food_processors/holt_htfp003.html"
+        }
+    },
+    {
+        "id": 94,
+        "name": "\u041f\u043b\u0430\u043d\u0435\u0442\u0430\u0440\u043d\u044b\u0435 \u043c\u0438\u043a\u0441\u0435\u0440\u044b",
+        "parent_id": 91,
+        "link": "https://www.21vek.by/mixer/planetary_mixers/",
+        "products": {
+            "1": "https://www.21vek.by/mixer/vt1445_vitek.html",
+            "2": "https://www.21vek.by/mixer/ar1907_aresa.html",
+            "3": "https://www.21vek.by/mixer/amx513_normann.html",
+            "4": "https://www.21vek.by/mixer/sigma18_endever.html",
+            "5": "https://www.21vek.by/mixer/hr374500_philips.html",
+            "6": "https://www.21vek.by/mixer/vt1444_vitek.html",
+            "7": "https://www.21vek.by/mixer/mf431s_maunfeld.html",
+            "8": "https://www.21vek.by/mixer/vt1417_vitek.html",
+            "9": "https://www.21vek.by/mixer/vt1437_vitek.html",
+            "10": "https://www.21vek.by/mixer/mf431bk_maunfeld.html"
+        }
+    },
+    {
+        "id": 95,
+        "name": "\u041c\u0438\u043a\u0441\u0435\u0440\u044b",
+        "parent_id": 91,
+        "link": "https://www.21vek.by/mixer/",
+        "products": {
+            "1": "https://www.21vek.by/mixer/mfqp1000_bosch.html",
+            "2": "https://www.21vek.by/mixer/gl2224_galaxy.html",
+            "3": "https://www.21vek.by/mixer/gl2225_galaxy.html",
+            "4": "https://www.21vek.by/mixer/rhm2105_redmond.html",
+            "5": "https://www.21vek.by/mixer/aresa_ar1901.html",
+            "6": "https://www.21vek.by/mixer/gl2223_galaxy.html",
+            "7": "https://www.21vek.by/mixer/gl2208_galaxy_02.html",
+            "8": "https://www.21vek.by/mixer/gl2207_galaxy.html",
+            "9": "https://www.21vek.by/mixer/mc6752_mercury_haus.html",
+            "10": "https://www.21vek.by/mixer/mw1358w_maxwell.html"
+        }
+    },
+    {
+        "id": 96,
+        "name": "\u041c\u044f\u0441\u043e\u0440\u0443\u0431\u043a\u0438",
+        "parent_id": 91,
+        "link": "https://www.21vek.by/meat_grinders/",
+        "products": {
+            "1": "https://www.21vek.by/meat_grinders/htmg006_holt.html",
+            "2": "https://www.21vek.by/meat_grinders/230404_belvar.html",
+            "3": "https://www.21vek.by/meat_grinders/htmg005_holt.html",
+            "4": "https://www.21vek.by/meat_grinders/amg352_normann.html",
+            "5": "https://www.21vek.by/meat_grinders/vt3620st_vitek.html",
+            "6": "https://www.21vek.by/meat_grinders/rmg12446_redmond.html",
+            "7": "https://www.21vek.by/meat_grinders/ar2104_aresa.html",
+            "8": "https://www.21vek.by/meat_grinders/me620132_moulinex.html",
+            "9": "https://www.21vek.by/meat_grinders/bosch_mfw45020.html",
+            "10": "https://www.21vek.by/meat_grinders/belvar_36220430.html"
+        }
+    },
+    {
+        "id": 105,
+        "name": "\u0412\u0435\u0441\u044b \u043a\u0443\u0445\u043e\u043d\u043d\u044b\u0435, \u0431\u044b\u0442\u043e\u0432\u044b\u0435",
+        "parent_id": 104,
+        "link": "https://www.21vek.by/kitchen_scales/",
+        "products": {
+            "1": "https://www.21vek.by/kitchen_scales/hs3012_homestar.html",
+            "2": "https://www.21vek.by/kitchen_scales/btks1006_blackton.html",
+            "3": "https://www.21vek.by/kitchen_scales/ht6128_hitt.html",
+            "4": "https://www.21vek.by/kitchen_scales/js115796_garin.html",
+            "5": "https://www.21vek.by/kitchen_scales/ath6222_atlanta.html",
+            "6": "https://www.21vek.by/kitchen_scales/gl2813_galaxy.html",
+            "7": "https://www.21vek.by/kitchen_scales/ht6129_hitt.html",
+            "8": "https://www.21vek.by/kitchen_scales/scks57p62_scarlett.html",
+            "9": "https://www.21vek.by/kitchen_scales/ar4302_aresa.html",
+            "10": "https://www.21vek.by/kitchen_scales/ask276_normann.html"
+        }
+    },
+    {
+        "id": 133,
+        "name": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b",
+        "parent_id": 132,
+        "link": "https://www.21vek.by/mobile/",
+        "products": {
+            "1": "https://www.21vek.by/mobile/redmi10a4gb128gb_xiaomi_01.html",
+            "2": "https://www.21vek.by/mobile/redmi1020226gb128gbnfc_xiaomi.html",
+            "3": "https://www.21vek.by/mobile/redmi9a2gb32gbm2006c3lg_xiaomi_01.html",
+            "4": "https://www.21vek.by/mobile/x64gb64gbvnelx1_honor_01.html",
+            "5": "https://www.21vek.by/mobile/hot20i4gb128gbx665e_infinix_01.html",
+            "6": "https://www.21vek.by/mobile/x52gb32gbvnalx2_honor_02.html",
+            "7": "https://www.21vek.by/mobile/redmia12gb32gb220733sfg_xiaomi.html",
+            "8": "https://www.21vek.by/mobile/x64gb64gbvnelx1_honor.html",
+            "9": "https://www.21vek.by/mobile/redminote126gb128gbnfc_xiaomi_01.html",
+            "10": "https://www.21vek.by/mobile/iphone11128gbmhdh3_apple.html"
+        }
+    },
+    {
+        "id": 134,
+        "name": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b Apple",
+        "parent_id": 132,
+        "link": "https://www.21vek.by/mobile/apple/",
+        "products": {
+            "1": "https://www.21vek.by/mobile/iphone11128gbmhdh3_apple.html",
+            "2": "https://www.21vek.by/mobile/iphone11128gbmhdj3_apple.html",
+            "3": "https://www.21vek.by/mobile/iphone1164gbmhda3_apple.html",
+            "4": "https://www.21vek.by/mobile/iphone12128gbmgjc3_apple.html",
+            "5": "https://www.21vek.by/mobile/iphonexs64gb2bmt9e2breezy_apple.html",
+            "6": "https://www.21vek.by/mobile/iphone14pro128gbmq0f3_apple.html",
+            "7": "https://www.21vek.by/mobile/iphone1164gbmhdc3_apple.html",
+            "8": "https://www.21vek.by/mobile/iphonese64gba22962bmx9t2breezy_apple.html",
+            "9": "https://www.21vek.by/mobile/iphone14pro128gbmq073_apple.html",
+            "10": "https://www.21vek.by/mobile/iphone14promax256gbmq9e3_apple.html"
+        }
+    },
+    {
+        "id": 136,
+        "name": "\u041a\u043d\u043e\u043f\u043e\u0447\u043d\u044b\u0435 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b",
+        "parent_id": 132,
+        "link": "https://www.21vek.by/mobile/5769/",
+        "products": {
+            "1": "https://www.21vek.by/mobile/xeniume172_philips.html",
+            "2": "https://www.21vek.by/mobile/steplbq2440_bq_02.html",
+            "3": "https://www.21vek.by/mobile/dreamduobq2446_bq.html",
+            "4": "https://www.21vek.by/mobile/dreamduobq2446_bq_03.html",
+            "5": "https://www.21vek.by/mobile/tmb322_texet.html",
+            "6": "https://www.21vek.by/mobile/125dualsim_nokia.html",
+            "7": "https://www.21vek.by/mobile/125dualsim_nokia_01.html",
+            "8": "https://www.21vek.by/mobile/xeniume2601cte2601dg00_philips.html",
+            "9": "https://www.21vek.by/mobile/steplbq2440_bq_06.html",
+            "10": "https://www.21vek.by/mobile/fantasybq2840_bq_01.html"
+        }
+    },
+    {
+        "id": 142,
+        "name": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b",
+        "parent_id": 141,
+        "link": "https://www.21vek.by/tv/",
+        "products": {
+            "1": "https://www.21vek.by/tv/32hbc5000t_blaupunkt.html",
+            "2": "https://www.21vek.by/tv/55uq80006lb_lg.html",
+            "3": "https://www.21vek.by/tv/50uq75006lf_lg.html",
+            "4": "https://www.21vek.by/tv/32lq63006la_lg.html",
+            "5": "https://www.21vek.by/tv/50nano826qb_lg.html",
+            "6": "https://www.21vek.by/tv/24lh0207_vityaz.html",
+            "7": "https://www.21vek.by/tv/40fbc5000t_blaupunkt.html",
+            "8": "https://www.21vek.by/tv/43uq75006lf_lg.html",
+            "9": "https://www.21vek.by/tv/24tq520spz_lg.html",
+            "10": "https://www.21vek.by/tv/32h740nb_kivi.html"
+        }
+    }
+]

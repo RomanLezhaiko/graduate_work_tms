@@ -1,4 +1,6 @@
 from unidecode import unidecode
+from random import randint
+
 
 from django.dispatch import receiver
 from django.db.models.signals import pre_save, post_save
