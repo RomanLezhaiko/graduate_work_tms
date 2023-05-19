@@ -13,8 +13,18 @@ from settings.base import SHOP_NAME
 
 def get_home_page(request):
     category = Category.objects.all()
-    products = Product.objects.all()
+    products_qs = Product.objects.all()
     cart_product_form = CartAddProductForm()
+
+    page = request.GET.get('page', 1)
+    paginator = Paginator(products_qs, 12)
+
+    try:
+       products = paginator.page(page)
+    except PageNotAnInteger:
+       products = paginator.page(1)
+    except EmptyPage:
+       products = paginator.page(paginator.num_pages)
 
     ctx = {'title': 'Главная',
            'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
@@ -22,7 +32,7 @@ def get_home_page(request):
            'name_header': 'name header',
            'name_footer': 'name footer',
            'categories': list(category),
-           'products': list(products),
+           'products': products,
            'cart_product_form': cart_product_form,
            }
 

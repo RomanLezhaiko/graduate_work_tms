@@ -17,6 +17,10 @@ class Product(models.Model):
     slug = models.SlugField(max_length=128, blank=True, null=True, unique=True)
 
 
+    class Meta:
+        ordering = ["name"]
+
+
     def __str__(self) -> str:
         return self.name
 

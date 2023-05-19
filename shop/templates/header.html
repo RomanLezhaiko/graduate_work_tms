@@ -65,7 +65,8 @@
 
                 
                 <div class="container-fluid">
-                    <form class="d-flex" method="get" action="{% url 'product_list' %}">
+                    <form class="d-flex" method="post" action="{% url 'product_list' %}">
+                        {% csrf_token %}
                         <input class="form-control me-2" type="search" id="search" name="search" placeholder="Поиск товаров" aria-label="Search">
                         <button class="btn btn-outline-warning" type="submit">Найти</button>
                     </form>

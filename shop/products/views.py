@@ -1,4 +1,5 @@
 from django.shortcuts import render, get_object_or_404, redirect
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.urls import reverse
 from django.contrib import messages
 
@@ -9,14 +10,32 @@ from settings.base import SHOP_NAME
 
 
 def list_product(request):
+    if request.method == 'POST':
+        query = request.POST.get('search', '')
+        print(query)
+        request.session['search'] = query
+    else:
+        query = request.session['search']
+
+
     category = Category.objects.all()
-    query = request.GET.get('search', '')
-    products = Product.objects.filter(name__icontains=query)
+    products_qs = Product.objects.filter(name__icontains=query)
+
+    page = request.GET.get('page', 1)
+    paginator = Paginator(products_qs, 12)
+
+    try:
+       products = paginator.page(page)
+    except PageNotAnInteger:
+       products = paginator.page(1)
+    except EmptyPage:
+       products = paginator.page(paginator.num_pages)
+
     ctx = {'title': f'Результат поиска {query}',
            'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
            'shop_name': SHOP_NAME,
            'categories': list(category),
-           'products': list(products)
+           'products': products
            }
     
     return render(request, 'product_list.html', ctx)
