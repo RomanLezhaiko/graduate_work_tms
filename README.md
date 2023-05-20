@@ -22,11 +22,41 @@ Install requirements:
 pip install -r requirements.txt
 ```
 
-Run the app:
+Change database settings in shop/settings/base.py
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': '', # name of database
+        'USER': '', # user of db
+        'PASSWORD': '', # password for db
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
+```
+Run migrate
 ```
 cd shop
 
-python3 manage.py runserver
+python manage.py migrate
+```
+
+Fill the db:
+```
+python manage.py loaddata category.json
+
+python manage.py loaddata products.json
+
+python manage.py loaddata products_image.json
+
+python manage.py loaddata users.json
+password for admin: admin
+```
+
+Run the app:
+```
+python manage.py runserver
 ```
 
 Install Redis if it is not present on your operating system, and after write in new terminal
@@ -40,13 +70,6 @@ cd shop
 
 python3 -m celery -A shop worker -l INFO
 ```
-
-
-P.S. For deploy version
-1. change DEBUG in setting to False
-2. change static url, root
-3. collectstatic
-4. runserver
 
 
 P.S. for running test
