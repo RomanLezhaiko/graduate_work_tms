@@ -27,7 +27,7 @@ def create_order(request):
     else:
         form = OrderCreateForm()
     
-    return render(request, 'create_order.html', {'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
+    return render(request, 'create_order.html', {'title': 'Заказ', 'keywords': 'Недорогие товары, быстрая доставка, Минск, sale',
                                                  'cart': cart, 
                                                  'form': form, 
                                                  'shop_name': SHOP_NAME,})
